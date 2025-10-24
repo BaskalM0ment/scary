@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Background Sound Page</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #1a1a1a, #333);
+      color: white;
+      font-family: Arial, sans-serif;
+      font-size: 2rem;
+      text-align: center;
+    }
+
+    h1 {
+      animation: fadeIn 3s ease-in-out infinite alternate;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0.5; transform: scale(0.95); }
+      to { opacity: 1; transform: scale(1.05); }
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to my sound page 🎵</h1>
+
+  <!-- Background audio -->
+  <audio autoplay loop>
+    <source src="The cocaine is not good for you Original [ZAfdk9TdjGU].mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</body>
+</html>
